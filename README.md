@@ -63,7 +63,7 @@
   
   type AccountEntity struct {
   	Id        int64     `gorm:"id" json:"id"`                // 主键id
-  	UserName  string    `gorm:"username" json:"username"`    // vj名称
+  	UserName  string    `gorm:"username" json:"username"`    // 用户名
   	Password  string    `gorm:"password" json:"password"`    // 密码
   	CreatedAt time.Time `gorm:"created_at" json:"createdAt"` // 创建时间
   	UpdatedAt time.Time `gorm:"updated_at" json:"updatedAt"` // 更新时间
